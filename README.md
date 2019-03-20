@@ -1,8 +1,8 @@
 # Joomla Misinek
-Joomla repo Misinek, goldenmind
+Joomla repo Misinek, Goldenmind
 
 
-# Előfeltételek
+# Előfeltételek (időigénye: 10 perc)
 
 1) Telepítsd a docker desktopot innét:
 https://docs.docker.com/docker-for-windows/install/
@@ -13,7 +13,7 @@ https://git-scm.com/downloads
 
 3) előfordulhat hogy ujra kell indítani a gépedet (amire telepítéskor figyelmeztet) akkor ezt tedd meg.
 
-# Telepítés
+# Telepítés (időigénye: 10 perc)
 
 1) nyiss egy parancssori ablakot (az asztalon található keresőbe gépeld be hogy cmd, majd enter)
 navigálj abba a könyvtárba ahol szívesen dolgoznál és nyisd meg. 
@@ -50,7 +50,7 @@ docker-compose up
 
 Ekkor ö elkezd buidelni, ez eltarthat pár percig. Csomagokat huz le a netről és telepít. Ha már nem futnak a parancssorban a sorok felfelé, akkor kész a build. Ha hibát írt ki, egyeztessünk.
 
-# Használat
+# Használat (ismerkedés időigénye: 10 perc)
 
 Build után a következő helyeken már elérhetők a cuccok
 
@@ -73,7 +73,7 @@ A joomla viszont friss telepítésű (bár nem a legfrisebb verziószámú - dir
 (friss telepítésű lesz, szabadon adhatsz hozzá modulokat, stb)
 
 HA A MOSTANI TELEPÍTETT ÁLLAPOTOT SZERETNÉD MODELLEZNI, akkor töltsd le a www könyvtárat a szerveredről és csapd vele felül a www könyvtárat.
-ha az adatbázishoz fájlszinten hozzáférnél ugyanezt megteheted a database könyvtárral is, de a dump eszt már megoldotta magától.
+ha az adatbázishoz fájlszinten hozzáférnél ugyanezt megteheted a database könyvtárral is, de a dump ezt már megoldotta magától.
 
 így máris az éles joomla-dat klónoztad az éles adatbázisoddal
 
@@ -84,7 +84,7 @@ Ha összeraktál egy elinduló változatot, az adott könyvtár tetszőleges sz�
 Hasznos infó: Ha van több változatod, egyszerre csak egy tud belőle futni hisz ugynazokat a portokat akarja használni a gépeden egy újabb példány is.
 ezek a 80, 81, 3306 -os portok.
 
-A docker-compose fájlban ezek modosíthatóak, ez esetben több példány is tud futni egyszerre a gépeden.
+A docker-compose.yml fájlban ezek modosíthatóak, ez esetben több példány is tud futni egyszerre a gépeden.
 
 # Hasznos parancsok
 
@@ -101,5 +101,5 @@ docker-compose up
 docker-compose down
 ```
 
-Gyorsparancsok:
+Docker gyorsparancsok:
 https://medium.com/the-code-review/top-10-docker-commands-you-cant-live-without-54fb6377f481
