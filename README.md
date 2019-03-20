@@ -1,7 +1,7 @@
 # Joomla Misinek
 Joomla repo Misinek, Goldenmind
 
-### Rendszer felélesztésének és a vele való ismerkedés becsült időigénye: 30 perc.
+###### Rendszer felélesztésének és a vele való ismerkedés becsült időigénye: 30 perc.
 
 
 # Előfeltételek 
