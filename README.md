@@ -5,7 +5,7 @@ Joomla repo Misinek, Goldenmind
 
 
 # Előfeltételek 
-(időigénye: 10 perc)
+###### (időigénye: 10 perc)
 
 1) Telepítsd a docker desktopot innét:
 https://docs.docker.com/docker-for-windows/install/
@@ -17,7 +17,7 @@ https://git-scm.com/downloads
 3) előfordulhat hogy ujra kell indítani a gépedet (amire telepítéskor figyelmeztet) akkor ezt tedd meg.
 
 # Telepítés 
-(időigénye: 10 perc)
+###### (időigénye: 10 perc)
 
 1) nyiss egy parancssori ablakot (az asztalon található keresőbe gépeld be hogy cmd, majd enter)
 navigálj abba a könyvtárba ahol szívesen dolgoznál és nyisd meg. 
@@ -55,7 +55,7 @@ docker-compose up
 Ekkor ö elkezd buidelni, ez eltarthat pár percig. Csomagokat huz le a netről és telepít. Ha már nem futnak a parancssorban a sorok felfelé, akkor kész a build. Ha hibát írt ki, egyeztessünk.
 
 # Használat 
-(ismerkedés időigénye: 10 perc)
+###### (ismerkedés időigénye: 10 perc)
 
 Build után a következő helyeken már elérhetők a cuccok
 
